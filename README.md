@@ -1,3 +1,5 @@
+## Quickstart
+
 Fast subreddit image scraper. Has no real limits.
 
 Place `config.py` as
@@ -22,3 +24,7 @@ USER_AGENT = '{platform}:{app_id}:{version} (by /u/{username})'.format(platform=
 ```
 
 Use `python3 cloudsearch.py` to start. 
+
+## Dependencies
+
+Depends on `praw` and `aiohttp`
